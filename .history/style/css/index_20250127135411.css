@@ -23,10 +23,10 @@ body{
 
 }
 
-/* header{
+header{
     height: 100vh;
 
-} */
+}
 
 .menu-icon{
     display: block;
@@ -38,7 +38,4 @@ body{
     cursor: pointer;
 }
 
-.banner-content{
-    margin: 100px auto;
-    padding: auto 20px;
-}
+.banner-content

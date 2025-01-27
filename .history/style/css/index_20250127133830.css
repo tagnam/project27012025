@@ -23,22 +23,8 @@ body{
 
 }
 
-/* header{
-    height: 100vh;
-
-} */
-
 .menu-icon{
     display: block;
-    width: 40px;
-    height: 6px;
-    background-color: var(--dark-color);
-    margin: 3px auto;
-    border-radius: 20px;
-    cursor: pointer;
-}
+    width: 30px;
 
-.banner-content{
-    margin: 100px auto;
-    padding: auto 20px;
 }

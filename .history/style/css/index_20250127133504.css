@@ -12,8 +12,7 @@ box-sizing: border-box;
     --light-color:#d287d4;    
     --main-heading-font-size: 2.5rem;
     --subheading-font-size: 1.5rem;
-    --paragraph-font-size: 1rem;
-
+     
 }
 
 
@@ -21,24 +20,4 @@ body{
     font-family: 'Poppins', sans-serif;
     
 
-}
-
-/* header{
-    height: 100vh;
-
-} */
-
-.menu-icon{
-    display: block;
-    width: 40px;
-    height: 6px;
-    background-color: var(--dark-color);
-    margin: 3px auto;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.banner-content{
-    margin: 100px auto;
-    padding: auto 20px;
 }
