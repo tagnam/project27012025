@@ -1,0 +1,56 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+ margin: 0; 
+padding: 0;
+box-sizing: border-box;
+}
+
+:root{
+    --dark-color:#423849;
+    --semi-dark-color:#b46ee0;
+    --light-color:#d287d4;    
+    --main-heading-font-size: 2.5rem;
+    --subheading-font-size: 1.5rem;
+    --paragraph-font-size: 1rem;
+
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+width: 100%;
+}
+
+
+.menu-icon{
+    display: block;
+    width: 40px;
+    height: 6px;
+    background-color: var(--dark-color);
+    margin: 3px auto;
+    border-radius: 20px;
+    cursor: pointer;
+    color
+}
+
+.banner-content{
+    margin: 100px auto;
+    padding: auto 20px;
+}
+
+.hero-section{
+   background-image: url(/image/business-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
