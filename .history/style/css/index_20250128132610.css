@@ -15,7 +15,7 @@ box-sizing: border-box;
     --subheading-font-size: 2rem;
     --paragraph-font-size: 1.1rem;
     --body-background-color: #f9f3fb;
-    --gradient-color: linear-gradient(-190deg, rgba(180,110,224,1) 45%, rgba(210,135,212,1) 70%);
+    --
 }
 
 p{
@@ -89,7 +89,7 @@ width: 100%;
 
 
 .client-section{
-    background: var(--gradient-color);
+    background: linear-gradient(-190deg, rgba(180,110,224,1) 45%, rgba(210,135,212,1) 70%);
     padding: 20px 0px;
     overflow: hidden;
 }
@@ -176,7 +176,7 @@ width: 100%;
 }
 
 .service-section{
-    background: var(--gradient-color);
+    background: linear-gradient(-190deg, rgba(180,110,224,1) 45%, rgba(210,135,212,1) 70%);
     padding: 50px 0px;
 }
 .main-heading-white{
@@ -233,7 +233,7 @@ width: 100%;
 
 
 .testimonial-section{
-    background: var(--gradient-color);
+    background: linear-gradient(-190deg, rgba(180,110,224,1) 45%, rgba(210,135,212,1) 70%);
     padding: 50px 0px;
 }
 
@@ -253,12 +253,11 @@ width: 100%;
 }
 
 .custom-btn{
-    background: var(--gradient-color);
+    background-color: var(--dark-color);
     color: var(--white-color);
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-top: 20px;
     display: inline-block;
     text-decoration: none;
-    font-size: 20px;
 }

@@ -13,9 +13,9 @@ box-sizing: border-box;
     --white-color:#fff;
     --main-heading-font-size: 3.5rem;
     --subheading-font-size: 2rem;
-    --paragraph-font-size: 1.1rem;
+    --paragraph-font-size: 1.rem;
     --body-background-color: #f9f3fb;
-    --gradient-color: linear-gradient(-190deg, rgba(180,110,224,1) 45%, rgba(210,135,212,1) 70%);
+
 }
 
 p{
@@ -89,7 +89,7 @@ width: 100%;
 
 
 .client-section{
-    background: var(--gradient-color);
+    background: linear-gradient(-190deg, rgba(180,110,224,1) 45%, rgba(210,135,212,1) 70%);
     padding: 20px 0px;
     overflow: hidden;
 }
@@ -176,7 +176,7 @@ width: 100%;
 }
 
 .service-section{
-    background: var(--gradient-color);
+    background: linear-gradient(-190deg, rgba(180,110,224,1) 45%, rgba(210,135,212,1) 70%);
     padding: 50px 0px;
 }
 .main-heading-white{
@@ -198,67 +198,4 @@ width: 100%;
     color: var(--white-color);
     font-size: var(--paragraph-font-size);
     text-align: center;
-}
-
-.counter-card{
-    width: 200px;
-    /* height: 200px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-}
-
-.counter{
-  text-align: center;
-
-}
-
-.counter .bi{
-    font-size: 2.5rem;
-    color: var(--dark-color);
-    display: flex;
-    margin: 10px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap ;
-   
-}
-
-.counter-text{
-    margin-top: 20px;
-}
-
-
-.testimonial-section{
-    background: var(--gradient-color);
-    padding: 50px 0px;
-}
-
-.img-body{
-   display: flex ;
-    /* justify-content: center; */
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-}
-
-.testimonial-img{
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
-    margin: 0px 20px;
-}
-
-.custom-btn{
-    background: var(--gradient-color);
-    color: var(--white-color);
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-top: 20px;
-    display: inline-block;
-    text-decoration: none;
-    font-size: 20px;
 }
