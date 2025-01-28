@@ -214,7 +214,7 @@ width: 100%;
 }
 
 .counter-text-holder{
-    background:var(--gradient-color);
+    background-color:var;
     width: 200px;
     padding: 15px 0px;
     display: flex;
@@ -239,9 +239,9 @@ width: 100%;
    
 }
 
-.counter-text{
-    color: var(--white-color);
-}
+/* .counter-text{
+    margin-top: 20px;
+} */
 
 
 .testimonial-section{
@@ -274,4 +274,3 @@ width: 100%;
     text-decoration: none;
     font-size: 20px;
 }
-

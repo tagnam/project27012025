@@ -8,22 +8,20 @@ slidesToShow: 6,        // Number of slides to show
 slidesToScroll: 1,      // Number of slides to scroll
 autoplay: true,         // Enable autoplay
 autoplaySpeed: 1000,    // Autoplay speed
-arrows: false ,           // Enable navigation arrows
-
+arrows: false            // Enable navigation arrows
 });
 });
 
 
 $(document).ready(function() {
     $('.testimonial').slick({
-    dots: true,             // Enable navigation dots
+    // dots: true,             // Enable navigation dots
     infinite: true,         // Infinite loop
     speed: 500,             // Transition speed
     slidesToShow: 1,        // Number of slides to show
     slidesToScroll: 1,      // Number of slides to scroll
     autoplay: true,         // Enable autoplay
-    autoplaySpeed: 2000,    // Autoplay speed
-    arrows: true  ,         // Enable navigation arrows
-   
+    autoplaySpeed: 1000,    // Autoplay speed
+    arrows: fals           // Enable navigation arrows
     });
     });

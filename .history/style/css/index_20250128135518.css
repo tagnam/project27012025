@@ -206,26 +206,16 @@ width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 15px; */
+    padding: 15px;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    border: unset;
- 
+    position: relative;
 }
 
-.counter-text-holder{
-    background:var(--gradient-color);
-    width: 200px;
-    padding: 15px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom-right-radius: 50px;
-}
 
 .counter{
   text-align: center;
-  position: relative;
+
 }
 
 .counter .bi{
@@ -240,7 +230,7 @@ width: 100%;
 }
 
 .counter-text{
-    color: var(--white-color);
+    margin-top: 20px;
 }
 
 
@@ -274,4 +264,3 @@ width: 100%;
     text-decoration: none;
     font-size: 20px;
 }
-

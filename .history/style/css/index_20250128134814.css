@@ -94,13 +94,13 @@ width: 100%;
     overflow: hidden;
 }
 
-.client-logo{
-    display: flex !important;
-    justify-content: center!important;
+/* .client-logo{
+    display: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     color: var(--white-color);
-}
+} */
 .about-row {
     border: 2px dotted var(--dark-color);
     padding: 10px;
@@ -206,26 +206,14 @@ width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 15px; */
+    padding: 15px;
     border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border: unset;
- 
-}
-
-.counter-text-holder{
-    background:var(--gradient-color);
-    width: 200px;
-    padding: 15px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-bottom-right-radius: 50px;
 }
 
 .counter{
   text-align: center;
-  position: relative;
+
 }
 
 .counter .bi{
@@ -240,7 +228,7 @@ width: 100%;
 }
 
 .counter-text{
-    color: var(--white-color);
+    margin-top: 20px;
 }
 
 
@@ -274,4 +262,3 @@ width: 100%;
     text-decoration: none;
     font-size: 20px;
 }
-

@@ -275,3 +275,14 @@ width: 100%;
     font-size: 20px;
 }
 
+.slick-dots li button
+{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--dark-color);
+    margin: 0px 5px;
+    cursor: pointer;
+    
+}

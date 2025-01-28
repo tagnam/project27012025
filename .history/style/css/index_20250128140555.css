@@ -209,18 +209,16 @@ width: 100%;
     /* padding: 15px; */
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    border: unset;
  
 }
 
 .counter-text-holder{
-    background:var(--gradient-color);
+    background-color: red;
     width: 200px;
-    padding: 15px 0px;
+    padding: 5px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom-right-radius: 50px;
 }
 
 .counter{
@@ -239,9 +237,9 @@ width: 100%;
    
 }
 
-.counter-text{
-    color: var(--white-color);
-}
+/* .counter-text{
+    margin-top: 20px;
+} */
 
 
 .testimonial-section{
@@ -274,4 +272,3 @@ width: 100%;
     text-decoration: none;
     font-size: 20px;
 }
-
