@@ -24,5 +24,6 @@ $(document).ready(function() {
     autoplay: true,         // Enable autoplay
     autoplaySpeed: 2000,    // Autoplay speed
     arrows: true  ,         // Enable navigation arrows
+   
     });
     });
